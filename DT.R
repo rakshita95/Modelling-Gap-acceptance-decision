@@ -1,7 +1,4 @@
-#Algorithm -CART? Check!
-#TO DO: 1. Implement C5.0 too
-# 2. try using StringsAsLevels in read.csv itself
-# 3.. change categories in Through Veh.
+
 classes = c("character","character","numeric","character","numeric","numeric","character","numeric")
 
 transport = read.csv('E:/academics/sem 7/SVM-transport/Data/DayandNightNew.csv')
@@ -46,6 +43,5 @@ plot(fit, uniform=TRUE,
      main="Classification Tree for Transport")
 text(fit, use.n=TRUE, all=TRUE, cex=.8)
 
-# # create attractive postscript plot of tree )
-# post(fit, file = "c:/tree.ps", 
-#      title = "Classification Tree for Kyphosis")
+# create postscript plot of tree 
+post(fit, file = "c:/tree.ps", title = "Classification Tree for Kyphosis")
