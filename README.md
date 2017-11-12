@@ -4,7 +4,10 @@ Precise prediction of gap acceptance at uncontrolled road sections is important 
 
 This work was accepted as a full paper at the 8th International Conference on Ambient Systems, Networks and Technologies (ANT-2017) held in Madeira, Portugal. The publication can be accessed from Sciencedirect using [this link.](http://www.sciencedirect.com/science/article/pii/S1877050917309729)
 
-##Description of Contents:
-DT.R: Implementation of Decision tree algorithm  
-svm.py: Implementation of Support Vector Machine and Ramdom Forest algorithm  
-roc.py: Plots the ROC curves for all the algorithms  
+## Description of Contents:  
+DT.R: Implementation of Decision tree algorithm    
+svm.py: Implementation of Support Vector Machine and Ramdom Forest algorithm    
+roc.py: Plots the ROC curves for all the algorithms   
+
+## Author:  
+Rakshita  
